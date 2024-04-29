@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Aprendendo novas tags</h1>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Informações Pessoais:</legend>
+            <div>
+                <label for="">Nome:</label><br>
+                <input type="text" required autofocus="enable">
+            </div>
+
+            <div>
+                <label for="">Email:</label><br>
+                <input type="email" autofocus="enable" autocomplete="on">
+            </div>
+
+            <div>
+                <label for="">Senha:</label><br>
+                <input type="password" required autofocus="enable">
+            </div>
+
+            <div>
+                <h3>Jogos</h3>  
+                <input type="radio" name="jogo" value="genshin-impact">Genshin Impact<br>
+                <input type="radio" name="jogo" value="honkai-star-rail">Honkai Star Rail<br>
+                <input type="radio" name="jogo" value="roblox">Roblox<br>
+                <input type="radio" name="jogo" value="stardew-valley">Stardew Valley<br>
+                <input type="radio" name="jogo" value="danganronpa">Danganronpa<br>
+            </div>
+
+            <div>
+                <h3>Cores:</h3>
+                <input type="checkbox" name="vermelho" value="vermelho">Vermelho<br>
+                <input type="checkbox" name="rosa" value="rosa">Rosa<br>
+                <input type="checkbox" name="azul" value="azul">Azul<br>
+                <input type="checkbox" name="ciano" value="ciano">Ciano<br>
+                <input type="checkbox" name="roxo" value="roxo">Roxo<br>
+            </div>
+
+            <div>
+                <h3>Quantidade</h3>
+                <input type="number" min="0" max="10">Quantidades
+            </div>
+
+            <div>
+                <h3>Auto Complete</h3>
+                <label for="nome">Nome:</label><br>
+                <input name="nome" id="nome" type="text" autocomplete="given-name">
+                <br>
+
+                <label for="sobrenome">Sobrenome:</label><br>
+                <input name="sobrenome" id="sobrenome" type="text" autocomplete="family-name">
+                <br>
+
+                <label for="email">Email:</label><br>
+                <input name="email" id="email" type="email" autocomplete="on">
+                <br>
+            </div>
+
+            <button type="submit">Enviar</button>
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
